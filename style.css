@@ -9,16 +9,22 @@
 /* Header Styles */
 .header {
     position: fixed;
-    background-color: rgba(245, 245, 245, 0.798);
     width: 100vw;
     padding: 5px;
     top: 0px;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .header ul > li {
     margin-right: 50px;
     list-style-type: none;
+}
+
+.darkModeBtn {
+	background: none;
+	border: none;
+	cursor: pointer;
 }
 
 /* Hero Styles */
@@ -33,7 +39,6 @@
 }
 
 .title {
-    background-color: rgba(255, 255, 255, 0.751);
     padding: 20px 100px;
     width: 100%;
 }
@@ -178,6 +183,10 @@
     color: rgb(67, 67, 67);
 }
 
+.whiteText {
+    color: rgb(211, 211, 211);
+}
+
 /* Font Sizes */
 .largeText {
     font-size: 70px;
@@ -209,3 +218,11 @@
     height: 500px;
     width: 100%;
 } 
+
+.headBackColorWhite {
+    background-color: rgba(255, 255, 255, 0.751);
+}
+
+.headBackColorBlack {
+    background-color: rgb(67, 67, 67);
+}
