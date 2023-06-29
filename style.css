@@ -1,5 +1,197 @@
+/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    position: fixed;
+    background-color: rgba(245, 245, 245, 0.798);
+    width: 100vw;
+    padding: 5px;
+    top: 0px;
+    justify-content: space-between;
+}
+
+.header ul > li {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+/* Hero Styles */
+.hero {
+    background-image: url(./Assets/TruckingGreenCar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.751);
+    padding: 20px 100px;
+    width: 100%;
+}
+
+.title2 {
+    width: 50%;
+}
+
+.title2 h1 {
+    font-size: 80px;
+}
+
+/* About Styles */
+.aboutMe {
+    height: 70vh;
+}
+
+.card {
+    width: 90%;
+}
+
+.imgCon {
+    justify-content: space-between;
+}
+
+.imgCon img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.heritage {
+    background-image: url(./Assets/TrafficJam.jpg);
+}
+
+/* Skill Styles */
+.techCon {
+    height: 70vh;
+}
+
+.skillIcons {
+    justify-content: space-between;
+}
+
+.skillIcons i {
+    font-size: 120px;
+}
+
+.indianapolis {
+    background-image: url(./Assets/indianapolis1.jpg);
+}
+
+/* Projects Styles */
+.projects {
+    height: 90vh;
+}
+
+.projectsCard {
+    width: 80%;
+}
+
+.contentCon {
+    border-bottom: 3px solid rgb(169, 169, 169);
+    padding: 30px;
+}
+
+.cardLeft {
+    flex: 2;
+}
+
+.textCon {
+    width: 80%;
+}
+
+.subtitleText {
+    font-size: 55px;
+}
+
+.subText {
+    font-size: 22px;
+}
+
+.cardRight {
+    flex: 1;
+}
+
+.cardRight img {
+    box-shadow: 9px 9px 9px #009305af;
+}
+
+.contactMe {
+    height: 30vh;
+}
+
+.contactSize {
+    width: 50%;
+}
+
+/* Contact Styles */
+.contact {
+    justify-content: space-evenly;    
+}
+
+.contact li {
+    list-style-type: none;
+}
+
+.emptyRoad {
+    background-image: url(./Assets/EmptyRoad.jpg);
+}
+
+/* Utility Classes */
+
+.flex {
+    display: flex;
+}
+
+.just {
+    justify-content: center;
+}
+
+.ali {
+    align-items: center;
+}
+
+.greenText {
+    color: #009305
+}
+
+.purpleText {
+    color: #9b27b0;
+}
+
+.largeText {
+    font-size: 70px;
+}
+
+.headText {
+    font-size: 36px;
+    text-decoration: none;
+}
+
+.smallText {
+    font-size: 28px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+} 
+
+.textAli {
+    text-align: center;
 }

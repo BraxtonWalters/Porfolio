@@ -1,0 +1,13 @@
+.headLinks:hover {
+    color: #9b27b0;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.1), 0 0 0.45em #9b27b0;
+}
+
+.skillIcons i:hover {
+    color: #9b27b0;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.1), 0 0 0.45em #9b27b0;
+}
+
+.aboutText:hover {
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.1), 0 0 0.45em #9b27b0;
+}

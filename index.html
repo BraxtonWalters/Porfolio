@@ -3,12 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/616d4199ea.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hover.css">
     <title>Braxton Walters</title>
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="header flex">
+        <div class="name">
+            <a class="headLinks headText greenText" href="#top">Braxton</a>
+        </div>
+        <ul class="flex">
+            <li><a class="headLinks headText greenText" href="#contact">Contact</a></li>
+            <li><a class="headLinks headText greenText" href="#aboutMe">About</a></li>
+            <li><a class="headLinks headText greenText" href="#Projects">Projects</a></li>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero flex just ali">
+        <div class="title flex just ali">
+            <div class="title2 textAli">
+                <h1 class="greenText">FULL-STACK SOFTWARE DEVELOPER</h1>
+                <p class="smallText">Programmatically solving problems, building user-first interfaces, and developing intuitive web applications for seamless experiences</p>
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section class="aboutMe flex ali just" id="aboutMe">
+        <div class="card textAli">
+            <h2 class="greenText largeText">A Little About Me</h2>
+            <p class="mt-20 smallText">I approach problems with a <span class="purpleText aboutText">strategic</span> mindset and find practical solutions.</p>
+            <p class="mt-20 smallText"> I am deeply committed to the success and <span class="purpleText aboutText">growth</span> growth of any project or team I'm apart of.</p>
+            <p class=" mt-20 smallText">I love playing with my doggos, playing guitar, videos games, and <span class="purpleText aboutText">working</span> on passion projects.</p>
+            <p class="mt-20 smallText">Coding is more than just a hobby for me; it's a true <span class="purpleText aboutText">passion</span>.</p>
+            <div class="imgCon mt-20 flex">
+                <img src="./Assets/guitar2.jpg" alt="guitar">
+                <img src="./Assets/Jade&Jemma.jpg" alt="Dog">
+                <img src="./Assets/code.jpg" alt="code">
+            </div>
+        </div>
+    </section>
+    <div class="heritage parallax"></div>
+    <!-- Skills Section -->
+    <section class="techCon textAli flex just ali">
+        <div>
+            <h2 class="greenText largeText">Tech That Drives Me</h2>
+            <p class="smallText">Technology that makes what I do possible</p>
+            <div class="skillIcons mt-20 flex ali">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-angular"></i>
+                <i class="fa-brands fa-node"></i>
+            </div>
+            <div class="skillIcons flex ali">
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-git"></i>
+                <i class="fa-brands fa-figma"></i>
+                <i class="fa-solid fa-font-awesome"></i>
+            </div>
+        </div>
+    </section>
+    <div class="indianapolis parallax"></div>
+    <!-- Projects Section -->
+    <section class="projects flex just ali" id="Projects">
+        <div class="projectsCard">
+            <div class="projectTitle textAli">
+                <h2 class="greenText largeText">Projects</h2>
+                <p class="smallText">My passion projects and amazing products</p>
+            </div>
+            <!-- Project 1 -->
+            <div class="contentCon flex ali">
+                <div class="cardLeft">
+                    <div class="textCon">
+                        <h3 class="subtitleText greenText">Coder-Dex</h3>
+                        <p class="subText">Built with: HTML | CSS | JavaScript | GitHub API</p>
+                        <p class="subText">A web app the allows you to put in a user's Github useranme. Dynamically generate user content in the form of tastfuly stylied cards. </p>
+                    </div>
+                </div>
+                <div class="cardRight">
+                    <img width="450" height="250" src="./Assets/Coder-Dex2.gif" alt="">
+                </div>
+            </div>
+            <!-- project 2 -->
+            <div class="contentCon flex ali">
+                <div class="cardLeft">
+                    <div class="textCon">
+                        <h3 class="subtitleText greenText">Calculator</h3>
+                        <p class="subText">Built with: HTML | CSS | JavaScript |</p>
+                        <p class="subText">A web app that is a Calculator. Built with refined CSS styles.</p>
+                    </div>
+                </div>
+                <div class="cardRight">
+                    <img width="450" height="250" src="./Assets/Calculator.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="emptyRoad parallax"></div>
+    <!-- Contact Me Section -->
+    <section class="contactMe flex just ali" id="contact">
+        <div class="contactSize textAli">
+            <h2 class="greenText largeText">Contact Me</h2>
+            <ul class="contact mt-20 flex">
+                <li><a href="mailto: braxton.walters@gmail.com" target="_blank"><img src="./Assets/email.png" alt="email"></a></li>
+                <li><a href="https://github.com/BraxtonWalters" target="_blank"><img src="./Assets/github.png" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/braxton-walters/" target="_blank"><img src="./Assets/linkedin.png" alt="linkedin"></a></li>
+            </ul>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
+
