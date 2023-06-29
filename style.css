@@ -97,6 +97,7 @@
 .contentCon {
     border-bottom: 3px solid rgb(169, 169, 169);
     padding: 30px;
+    animation: slideMe .7s ease-in;
 }
 
 .cardLeft {
@@ -105,14 +106,6 @@
 
 .textCon {
     width: 80%;
-}
-
-.subtitleText {
-    font-size: 55px;
-}
-
-.subText {
-    font-size: 22px;
 }
 
 .cardRight {
@@ -147,6 +140,7 @@
 
 /* Utility Classes */
 
+/* Centering Styles */
 .flex {
     display: flex;
 }
@@ -159,6 +153,20 @@
     align-items: center;
 }
 
+.textAli {
+    text-align: center;
+}
+
+/* Margin Top Styles */
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+/* Font Colors */
 .greenText {
     color: #009305
 }
@@ -167,6 +175,11 @@
     color: #9b27b0;
 }
 
+.blackText{
+    color: rgb(67, 67, 67);
+}
+
+/* Font Sizes */
 .largeText {
     font-size: 70px;
 }
@@ -180,10 +193,15 @@
     font-size: 28px;
 }
 
-.mt-20 {
-    margin-top: 20px;
+.projectTitleText {
+    font-size: 55px;
 }
 
+.projectSubText {
+    font-size: 22px;
+}
+
+/* Parallax Scroll */
 .parallax {
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,7 +210,3 @@
     height: 500px;
     width: 100%;
 } 
-
-.textAli {
-    text-align: center;
-}
