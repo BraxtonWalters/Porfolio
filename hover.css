@@ -12,6 +12,14 @@
     text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.1), 0 0 0.45em #9b27b0;
 }
 
+.anOnScroll {
+    opacity: 0;
+    transform: translateX(-300px);
+    animation: all .7s ease-out;
+    transition-delay: 0.2s;
+}
+
+
 @keyframes slideMe {
     0% {
         transform: skewX(53deg) translateX(-500px);

@@ -97,7 +97,6 @@
 .contentCon {
     border-bottom: 3px solid rgb(169, 169, 169);
     padding: 30px;
-    animation: slideMe .7s ease-in;
 }
 
 .cardLeft {
