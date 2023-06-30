@@ -14,7 +14,7 @@
 
 .anOnScroll {
     opacity: 0;
-    transform: translateX(-1200px);
+    transform: translateX(-500px);
 }
 
 .animate {

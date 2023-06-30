@@ -116,6 +116,10 @@
     flex: 1;
 }
 
+.repoLinks {
+    text-decoration: none;
+}
+
 .cardRight img {
     box-shadow: 9px 9px 9px #009305af;
     border-radius: 5px;
