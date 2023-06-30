@@ -13,25 +13,25 @@
     <link rel="stylesheet" href="hover.css">
     <title>Braxton Walters</title>
 </head>
-<body>
+<body class="toggle">
     <!-- Navbar -->
-    <nav class="header headBackColor flex">
+    <nav class="header toggle headBackColorWhite flex">
         <div class="name">
-            <a class="headLinks headText blackText" href="#top">Braxton</a>
+            <a class="headLinks toggle headText blackText" href="#top">Braxton</a>
         </div>
         <ul class="flex">
             <li><a class="headLinks headText greenText" href="#contact">Contact</a></li>
             <li><a class="headLinks headText greenText" href="#aboutMe">About</a></li>
             <li><a class="headLinks headText greenText" href="#Projects">Projects</a></li>
-            <li><button class="darkModeBtn headLinks headText">Dark Mode</button></li>
+            <li><button onclick="toggleMode(this)" class="darkModeBtn toggle headLinks blackText headText">Dark Mode</button></li>
         </ul>
     </nav>
     <!-- Hero Section -->
     <section class="hero flex just ali">
-        <div class="title headBackColor flex just ali">
+        <div class="title toggle headBackColorWhite flex just ali">
             <div class="title2 textAli">
                 <h1 class="greenText">FULL-STACK SOFTWARE DEVELOPER</h1>
-                <p class="blackText smallText">Programmatically solving problems, building user-first interfaces, and developing intuitive web applications for seamless experiences</p>
+                <p class="blackText toggle smallText">Programmatically solving problems, building user-first interfaces, and developing intuitive web applications for seamless experiences</p>
             </div>
         </div>
     </section>
@@ -39,10 +39,10 @@
     <section class="aboutMe flex ali just" id="aboutMe">
         <div class="card textAli">
             <h2 class="greenText largeText">A Little About Me</h2>
-            <p class="mt-20 blackText smallText">I approach problems with a <span class="purpleText aboutText">strategic</span> mindset and find practical solutions.</p>
-            <p class="mt-20 blackText smallText"> I am deeply committed to the success and <span class="purpleText aboutText">growth</span> growth of any project or team I'm apart of.</p>
-            <p class=" mt-20 blackText smallText">I love playing with my doggos, playing guitar, videos games, and <span class="purpleText aboutText">working</span> on passion projects.</p>
-            <p class="mt-20 blackText smallText">Coding is more than just a hobby for me; it's a true <span class="purpleText aboutText">passion</span>.</p>
+            <p class="mt-20 toggle blackText smallText">I approach problems with a <span class="purpleText aboutText">strategic</span> mindset and find practical solutions.</p>
+            <p class="mt-20 toggle blackText smallText"> I am deeply committed to the success and <span class="purpleText aboutText">growth</span> growth of any project or team I'm apart of.</p>
+            <p class="mt-20 toggle blackText smallText">I love playing with my doggos, playing guitar, videos games, and <span class="purpleText aboutText">working</span> on passion projects.</p>
+            <p class="mt-20 toggle blackText smallText">Coding is more than just a hobby for me; it's a true <span class="purpleText aboutText">passion</span>.</p>
             <div class="imgCon mt-20 flex">
                 <img src="./Assets/guitar2.jpg" alt="guitar">
                 <img src="./Assets/Jade&Jemma.jpg" alt="Dog">
@@ -55,7 +55,7 @@
     <section class="techCon textAli flex just ali">
         <div>
             <h2 class="greenText largeText">Tech That Drives Me</h2>
-            <p class="smallText blackText">Technology that makes what I do possible</p>
+            <p class="smallText toggle blackText">Technology that makes what I do possible</p>
             <div class="skillIcons mt-20 flex ali">
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-css3-alt"></i>
@@ -78,15 +78,15 @@
         <div class="projectsCard">
             <div class="projectTitle textAli">
                 <h2 class="greenText largeText">Projects</h2>
-                <p class="blackText smallText">My passion projects and amazing products</p>
+                <p class="blackText toggle smallText">My passion projects and amazing products</p>
             </div>
             <!-- Project 1 -->
             <div class="contentCon anOnScroll mt-40 flex ali">
                 <div class="cardLeft">
                     <div class="textCon">
                         <h3 class="projectTitleText greenText">Coder-Dex</h3>
-                        <p class="blackText projectSubText mt-20">Built with: HTML | CSS | JavaScript | GitHub API</p>
-                        <p class="blackText projectSubText">A web app the allows you to put in a user's Github username. Dynamically generate user content in the form of tastefully styled cards. </p>
+                        <p class="blackText toggle projectSubText mt-20">Built with: HTML | CSS | JavaScript | GitHub API</p>
+                        <p class="blackText toggle projectSubText">A web app the allows you to put in a user's Github username. Dynamically generate user content in the form of tastefully styled cards. </p>
                     </div>
                 </div>
                 <div class="cardRight">
@@ -98,8 +98,8 @@
                 <div class="cardLeft">
                     <div class="textCon">
                         <h3 class="projectTitleText greenText">Calculator</h3>
-                        <p class="blackText projectSubText mt-20">Built with: HTML | CSS | JavaScript |</p>
-                        <p class="blackText projectSubText">A web app that is a Calculator. Built with refined CSS styles.</p>
+                        <p class="toggle blackText projectSubText mt-20">Built with: HTML | CSS | JavaScript |</p>
+                        <p class="toggle blackText projectSubText">A web app that is a Calculator. Built with refined CSS styles.</p>
                     </div>
                 </div>
                 <div class="cardRight">
